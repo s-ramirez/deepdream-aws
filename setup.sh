@@ -3,7 +3,7 @@ set -e
 # Disable camera, we don't have any:
 sudo ln /dev/null /dev/raw1394
 
-git clone git@github.com:s-ramirez/deepdream-aws.git
+git clone https://github.com/s-ramirez/deepdream-aws.git
 cd deepdream-aws
 ln -s ~/caffe .
 # Get the googlenet model file:
