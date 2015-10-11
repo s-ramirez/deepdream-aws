@@ -11,8 +11,8 @@ open https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceW
 # Choose an existing key pair: reuse-elasticsearch.
 # Wait until fulfilled. Click on instance. Check public DNS.
 
-dns=ec2-54-158-172-169.compute-1.amazonaws.com
-pem=~/.ssh/reuse-elasticsearch.pem
+dns=ec2-52-91-246-221.compute-1.amazonaws.com
+pem=~/Downloads/keypair1.pem
 # Don't forget to chmod go-rwx $pem
 
 # Change 'danielvarga' so that this points to your fork:
